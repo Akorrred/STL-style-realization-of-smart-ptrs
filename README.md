@@ -1,6 +1,5 @@
-# Class List
-Реализован класс List, аналогичный std::list<int>.
- + Определены функции push_back, push_front, pop_back, pop_front, size и begin/end.
- + Конструктор без параметров, оператор присваивания и деструктор. 
- + Функции begin и end возвращают итераторы, для которых определены операторы ++, -- и унарный * (разыменование)
- + Операторы сравнения == и !=.
+# STL-style-realization-of-smart-ptrs
+Implemented STL-style-realization-of-smart-ptrs:
+ + unique_ptr with compressed_pair
+ + shared_ptr
+ + weak_ptr
